@@ -1,5 +1,106 @@
 [
   {
+    "slug": "storeinspect-mcp",
+    "name": "StoreInspect MCP",
+    "type": "mcp-server",
+    "category": "business",
+    "description": "Hosted StoreInspect MCP (mcp.storeinspect.com) so Claude Code, Cursor, Codex and ChatGPT can search 2M+ Shopify stores by apps, traffic and contacts via OAuth; reveals need explicit confirmation.",
+    "url": "https://storeinspect.com/docs/mcp/quickstart",
+    "repoUrl": "https://github.com/StoreInspect/storeinspect-mcp",
+    "githubStars": 0,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "shopify",
+      "ecommerce"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode"
+    ],
+    "addedAt": "2026-11-02"
+  },
+  {
+    "slug": "deployhq-mcp",
+    "name": "DeployHQ MCP Server",
+    "type": "mcp-server",
+    "category": "cloud",
+    "description": "DeployHQ's hosted read-only MCP at mcp.deployhq.com: add one URL to Claude Code, Codex, Gemini CLI or Cursor, sign in, and ask what is deployed where and which deploys failed.",
+    "url": "https://www.deployhq.com/mcp",
+    "repoUrl": "https://github.com/deployhq/deployhq-mcp-server",
+    "githubStars": 13,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "deployments",
+      "devops"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "vscode"
+    ],
+    "addedAt": "2026-11-02"
+  },
+  {
+    "slug": "signoz-mcp",
+    "name": "SigNoz MCP Server",
+    "type": "mcp-server",
+    "category": "observability",
+    "description": "Official SigNoz MCP so agents can query metrics, traces and logs in natural language and manage dashboards, alerts and views; Cloud hosted URL plus open-source server, with agent skills/plugin.",
+    "url": "https://signoz.io/docs/ai/signoz-mcp-server/",
+    "repoUrl": "https://github.com/SigNoz/signoz-mcp-server",
+    "githubStars": 130,
+    "tags": [
+      "official",
+      "hosted",
+      "observability",
+      "tracing",
+      "metrics"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "vscode"
+    ],
+    "addedAt": "2026-11-02"
+  },
+  {
+    "slug": "temps",
+    "name": "Temps",
+    "type": "agent-tool",
+    "category": "agent-infra",
+    "description": "Open-source AI-native alternative to Vercel+Sentry+PostHog+Resend+E2B: self-hosted Rust binary with 440+ CLI ops and drop-in skills for Claude Code, Codex and OpenCode.",
+    "url": "https://temps.sh/docs",
+    "repoUrl": "https://github.com/gotempsh/temps",
+    "githubStars": 888,
+    "tags": [
+      "open-source",
+      "self-hosted",
+      "deployments",
+      "observability",
+      "skills"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex",
+      "opencode",
+      "cursor"
+    ],
+    "addedAt": "2026-11-02"
+  },
+  {
     "slug": "mollie-mcp",
     "name": "Mollie MCP Server",
     "type": "mcp-server",
