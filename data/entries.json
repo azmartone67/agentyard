@@ -1,5 +1,27 @@
 [
   {
+    "slug": "unslop",
+    "name": "Unslop",
+    "type": "agent-tool",
+    "category": "workflows",
+    "description": "Claude Code/Codex skill that audits vibecoded UI (purple gradients, glows, shouty copy) then redesigns pass by pass from your product; works on local screens or a live URL.",
+    "url": "https://github.com/heydamir/unslop",
+    "repoUrl": "https://github.com/heydamir/unslop",
+    "githubStars": 4881,
+    "tags": [
+      "skill",
+      "ui",
+      "design",
+      "claude-code",
+      "open-source"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex"
+    ],
+    "addedAt": "2026-11-02"
+  },
+  {
     "slug": "storeinspect-mcp",
     "name": "StoreInspect MCP",
     "type": "mcp-server",
