@@ -1,5 +1,50 @@
 [
   {
+    "slug": "floorplan",
+    "name": "Floorplan",
+    "type": "agent-tool",
+    "category": "dev-tools",
+    "description": "Claude/Codex skill that reads a codebase and draws an interactive plain-English map of parts, files, and web requests—with ask-the-map, health checks, and recent-work highlights.",
+    "url": "https://haydenschmitty.github.io/floorplan-demo/",
+    "repoUrl": "https://github.com/haydenschmitty/floorplan",
+    "githubStars": 1791,
+    "tags": [
+      "skill",
+      "architecture",
+      "visualization",
+      "claude-code",
+      "codex"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex"
+    ],
+    "addedAt": "2026-11-02"
+  },
+  {
+    "slug": "answer-me-with-html",
+    "name": "Answer Me with HTML",
+    "type": "agent-tool",
+    "category": "workflows",
+    "description": "Agent skill that answers hard questions as a single offline HTML page (diagrams, tables, timelines); the model drafts Markdown and a bundled CLI builds the page ~8× fewer tokens.",
+    "url": "https://answer-me-with-html.com/",
+    "repoUrl": "https://github.com/QingYunA/answer-me-with-html",
+    "githubStars": 5024,
+    "tags": [
+      "skill",
+      "html",
+      "explainer",
+      "claude-code",
+      "open-source"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-11-02"
+  },
+  {
     "slug": "unslop",
     "name": "Unslop",
     "type": "agent-tool",
