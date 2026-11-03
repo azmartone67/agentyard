@@ -1,5 +1,100 @@
 [
   {
+    "slug": "thunderclient-mcp",
+    "name": "Thunder Client MCP",
+    "type": "mcp-server",
+    "category": "dev-tools",
+    "description": "Official Thunder Client MCP (v2) so Claude Code, Codex and Cursor can create, edit, test and run API collections via 12 tools, with one-command npx setup and no API keys.",
+    "url": "https://docs.thunderclient.com/mcp",
+    "repoUrl": "https://github.com/thunderclient/thunderclient-mcp",
+    "githubStars": 11,
+    "tags": [
+      "api-testing",
+      "http",
+      "collections",
+      "official",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-11-03"
+  },
+  {
+    "slug": "pixelfx",
+    "name": "pixelfx",
+    "type": "agent-tool",
+    "category": "design",
+    "description": "244 MIT pixel-art effect snippets plus a Claude Code skill that drafts, renders and refines new effects as small pieces of code for games and UI.",
+    "url": "https://patch-gg.github.io/pixelfx/",
+    "repoUrl": "https://github.com/patch-gg/pixelfx",
+    "githubStars": 3515,
+    "tags": [
+      "skill",
+      "pixel-art",
+      "effects",
+      "claude-code",
+      "design"
+    ],
+    "worksWith": [
+      "claude-code"
+    ],
+    "addedAt": "2026-11-03"
+  },
+  {
+    "slug": "notebooklm-mcp",
+    "name": "NotebookLM MCP",
+    "type": "mcp-server",
+    "category": "search",
+    "description": "Lets Claude Code, Codex and Cursor query your NotebookLM notebooks for citation-backed answers, with persistent auth, library management and cross-client sharing.",
+    "url": "https://github.com/PleasePrompto/notebooklm-mcp",
+    "repoUrl": "https://github.com/PleasePrompto/notebooklm-mcp",
+    "githubStars": 3441,
+    "tags": [
+      "notebooklm",
+      "rag",
+      "citations",
+      "gemini",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli"
+    ],
+    "addedAt": "2026-11-03"
+  },
+  {
+    "slug": "agent-intern",
+    "name": "agent-intern",
+    "type": "mcp-server",
+    "category": "agent-infra",
+    "description": "MCP bridge that lets Claude Code delegate to Gemini, Codex, Copilot, Cursor and opencode as headless sub-agents for answers, images, repo work and parallel swarms.",
+    "url": "https://github.com/SinanTufekci/agent-intern",
+    "repoUrl": "https://github.com/SinanTufekci/agent-intern",
+    "githubStars": 30,
+    "tags": [
+      "multi-agent",
+      "delegation",
+      "swarm",
+      "cli",
+      "mcp"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "opencode"
+    ],
+    "addedAt": "2026-11-03"
+  },
+  {
     "slug": "floorplan",
     "name": "Floorplan",
     "type": "agent-tool",
