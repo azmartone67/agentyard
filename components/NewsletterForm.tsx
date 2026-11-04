@@ -56,7 +56,7 @@ export function NewsletterForm({ compact = false }: { compact?: boolean }) {
       {msg && (
         <p
           className={`caption-2 mt-2 ${
-            state === "error" ? "text-red-400" : state === "soon" ? "text-amber-300" : "text-lime-300"
+            state === "error" ? "text-red-400" : state === "soon" ? "text-zinc-400" : "text-brand-400"
           }`}
         >
           {msg}

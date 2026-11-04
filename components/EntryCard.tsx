@@ -5,9 +5,9 @@ export function TypeBadge({ type }: { type: Entry["type"] }) {
   const cls =
     type === "mcp-server"
       ? "bg-brand-500/10 text-brand-400 ring-brand-500/30"
-      : "bg-lime-400/10 text-lime-300 ring-lime-400/30";
+      : "bg-surface-3 text-zinc-300 ring-surface-4";
   return (
-    <span className={`caption-4 rounded-full px-2 py-0.5 ring-1 ring-inset ${cls}`}>
+    <span className={`caption-4 rounded-md px-2 py-0.5 ring-1 ring-inset ${cls}`}>
       {TYPE_LABELS[type]}
     </span>
   );

@@ -18,7 +18,7 @@ export function Logo() {
           strokeLinejoin="round"
           fill="none"
         />
-        <circle cx="24.5" cy="8" r="2.5" fill="#a3e635" />
+        <circle cx="24.5" cy="8" r="2.5" fill="#5fa0ff" />
       </svg>
       {SITE.name}
     </span>
