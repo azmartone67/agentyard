@@ -104,7 +104,7 @@ export default function Home() {
               <div className="relative aspect-[16/9] overflow-hidden rounded-lg bg-surface-2">
                 <Image
                   src="/art/hero-shed.jpg"
-                  alt="Cinematic night view of a wooden tool shed with warm light spilling from the open door, pegboard tools and workbench inside"
+                  alt="Dark SaaS directory UI mockup for AgentYard with search and tool listings"
                   fill
                   priority
                   sizes="(max-width: 768px) 100vw, 560px"
@@ -125,7 +125,7 @@ export default function Home() {
             <div className="relative aspect-[21/9] overflow-hidden rounded-lg bg-surface-2 sm:aspect-[2.4/1]">
               <Image
                 src="/art/benefit-tools.jpg"
-                alt="Pegboard wall of hand tools beside modular LED status panels on a workbench"
+                alt="Three frosted glass module icons on black representing agent tools"
                 fill
                 sizes="(max-width: 768px) 100vw, 1152px"
                 className="object-cover"
@@ -167,7 +167,7 @@ export default function Home() {
             <div className="relative min-h-[220px] overflow-hidden rounded-lg bg-surface-2 md:min-h-0">
               <Image
                 src="/art/weekly-desk.jpg"
-                alt="Desk still life with notebook, coffee, and printed weekly digest sheets under warm lamp light"
+                alt="Black folded weekly digest with blue ribbon still life"
                 fill
                 sizes="(max-width: 768px) 100vw, 560px"
                 className="object-cover"
