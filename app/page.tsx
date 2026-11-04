@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { CATEGORIES, EDITOR_PICKS, entries, getEntry, newThisWeek } from "@/lib/data";
 import { getIssues } from "@/lib/weekly";
@@ -61,26 +62,26 @@ export default function Home() {
       />
 
       <section className="relative overflow-hidden border-b border-surface-3 bg-surface-0">
-        <div className="relative mx-auto max-w-6xl px-4 pb-16 pt-28 md:pb-20 md:pt-32">
-          <p className="caption-4 inline-flex items-center gap-2 rounded-full border border-surface-4 bg-surface-1 px-3 py-1 text-zinc-400">
-            <span className="h-1.5 w-1.5 rounded-full bg-accent-400" aria-hidden />
-            {entries.length} tools · {mcp} MCP servers · {tools} agent tools · {issueCount} weekly issues
-          </p>
+        <div className="relative mx-auto grid max-w-6xl items-center gap-8 px-4 pb-16 pt-28 md:grid-cols-2 md:gap-12 md:pb-20 md:pt-32">
+          <div className="min-w-0">
+            <p className="caption-4 inline-flex items-center gap-2 rounded-full border border-surface-4 bg-surface-1 px-3 py-1 text-zinc-400">
+              <span className="h-1.5 w-1.5 rounded-full bg-accent-400" aria-hidden />
+              {entries.length} tools · {mcp} MCP servers · {tools} agent tools · {issueCount} weekly issues
+            </p>
 
-          <h1 className="heading-1 hero-heading-gradient mt-6 max-w-[680px]">
-            The tool shed
-            <br />
-            for AI agents.
-          </h1>
+            <h1 className="heading-1 hero-heading-gradient mt-6 max-w-[680px]">
+              The tool shed
+              <br />
+              for AI agents.
+            </h1>
 
-          <p className="body-3 mt-6 max-w-[680px] text-zinc-400">
-            MCP servers, coding agents and agent tooling for{" "}
-            <span className="text-zinc-200">Claude Code, Codex, Cursor, Gemini CLI, OpenClaw, Hermes</span> and
-            every other agent you run. Hand checked links, a weekly digest of what shipped.
-          </p>
+            <p className="body-3 mt-6 max-w-[680px] text-zinc-400">
+              MCP servers, coding agents and agent tooling for{" "}
+              <span className="text-zinc-200">Claude Code, Codex, Cursor, Gemini CLI, OpenClaw, Hermes</span> and
+              every other agent you run. Hand checked links, a weekly digest of what shipped.
+            </p>
 
-          <div className="mt-8 flex flex-col gap-6 md:flex-row md:items-start md:gap-8">
-            <div className="flex flex-col items-start gap-3">
+            <div className="mt-8 flex flex-col items-start gap-3">
               <Link href="/sponsor" className="btn-primary button-md">
                 Sponsor your tool
               </Link>
@@ -92,9 +93,24 @@ export default function Home() {
               </Link>
             </div>
 
-            <div className="w-full max-w-md border-t border-surface-3 pt-6 md:border-l md:border-t-0 md:pl-8 md:pt-0">
+            <div className="mt-8 max-w-md border-t border-surface-3 pt-6">
               <p className="title-4 mb-3 text-zinc-300">Get the weekly digest</p>
               <NewsletterForm />
+            </div>
+          </div>
+
+          <div className="min-w-0 w-full">
+            <div className="rounded-2xl border border-surface-3 bg-surface-1 p-2">
+              <div className="relative aspect-[16/9] overflow-hidden rounded-lg bg-surface-2">
+                <Image
+                  src="/art/hero-shed.jpg"
+                  alt="Cinematic night view of a wooden tool shed with warm light spilling from the open door, pegboard tools and workbench inside"
+                  fill
+                  priority
+                  sizes="(max-width: 768px) 100vw, 560px"
+                  className="object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -105,7 +121,18 @@ export default function Home() {
       <div className="mx-auto max-w-6xl px-4">
         <Reveal as="section" className="mt-16">
           <h2 className="heading-5 text-white">Why builders use the yard</h2>
-          <div className="mt-6 grid gap-4 md:grid-cols-3">
+          <div className="mt-6 overflow-hidden rounded-2xl border border-surface-3 bg-surface-1 p-2">
+            <div className="relative aspect-[21/9] overflow-hidden rounded-lg bg-surface-2 sm:aspect-[2.4/1]">
+              <Image
+                src="/art/benefit-tools.jpg"
+                alt="Pegboard wall of hand tools beside modular LED status panels on a workbench"
+                fill
+                sizes="(max-width: 768px) 100vw, 1152px"
+                className="object-cover"
+              />
+            </div>
+          </div>
+          <div className="mt-4 grid gap-4 md:grid-cols-3">
             {BENEFITS.map((b) => (
               <article
                 key={b.title}
@@ -133,6 +160,43 @@ export default function Home() {
 
         <Reveal as="section" className="mt-16">
           <SponsorSlot />
+        </Reveal>
+
+        <Reveal as="section" className="mt-16">
+          <div className="grid gap-6 overflow-hidden rounded-2xl border border-surface-3 bg-surface-1 p-2 md:grid-cols-2 md:items-stretch">
+            <div className="relative min-h-[220px] overflow-hidden rounded-lg bg-surface-2 md:min-h-0">
+              <Image
+                src="/art/weekly-desk.jpg"
+                alt="Desk still life with notebook, coffee, and printed weekly digest sheets under warm lamp light"
+                fill
+                sizes="(max-width: 768px) 100vw, 560px"
+                className="object-cover"
+              />
+            </div>
+            <div className="flex flex-col justify-center gap-3 p-4 md:p-6">
+              <p className="caption-3 text-brand-400">Weekly digest</p>
+              <h2 className="heading-5 text-white">What shipped for agents this week</h2>
+              <p className="body-6 text-zinc-400">
+                A short curated note covering new MCP servers, coding agents and tooling worth installing.
+                No hype roundups. Just what we checked and would run ourselves.
+              </p>
+              {latest ? (
+                <Link
+                  href={`/weekly/${latest.slug}`}
+                  className="link-quiet caption-2 mt-2 inline-flex w-fit focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400"
+                >
+                  Read Weekly #{latest.number}
+                </Link>
+              ) : (
+                <Link
+                  href="/weekly"
+                  className="link-quiet caption-2 mt-2 inline-flex w-fit focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400"
+                >
+                  Browse the weekly archive
+                </Link>
+              )}
+            </div>
+          </div>
         </Reveal>
 
         <Reveal as="section" className="mt-16">
