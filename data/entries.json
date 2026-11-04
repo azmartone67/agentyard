@@ -3686,5 +3686,95 @@
       "vscode"
     ],
     "addedAt": "2026-10-26"
+  },
+  {
+    "slug": "pachca-mcp",
+    "name": "Pachca MCP",
+    "type": "mcp-server",
+    "category": "productivity",
+    "description": "Official Pachca team-chat MCP server: Claude Code, Codex and Cursor can search chat history, summarize threads, create tasks and send messages with the connecting employee's permissions. Free on all plans.",
+    "url": "https://pachca.com/mcp",
+    "tags": [
+      "chat",
+      "team",
+      "tasks",
+      "official",
+      "remote"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode"
+    ],
+    "addedAt": "2026-11-04"
+  },
+  {
+    "slug": "keytomic-seo-mcp",
+    "name": "Keytomic SEO MCP",
+    "type": "mcp-server",
+    "category": "business",
+    "description": "Keytomic's SEO MCP server brings keyword research, content publishing, site audits and content-calendar management into Claude Code, Codex, Cursor, Gemini CLI and Windsurf.",
+    "url": "https://keytomic.com/mcp",
+    "tags": [
+      "seo",
+      "marketing",
+      "content",
+      "audits",
+      "official"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "windsurf"
+    ],
+    "addedAt": "2026-11-04"
+  },
+  {
+    "slug": "replica-skill",
+    "name": "replica",
+    "type": "agent-tool",
+    "category": "design",
+    "description": "MIT Agent Skill for Claude Code and other coding agents that rebuilds a UI from a site, screenshot or screen recording, then scores the clone on layout, style, pixels and motion until it passes.",
+    "url": "https://github.com/albertirgi/replica",
+    "repoUrl": "https://github.com/albertirgi/replica",
+    "githubStars": 40,
+    "tags": [
+      "skill",
+      "ui-clone",
+      "visual-diff",
+      "frontend"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex"
+    ],
+    "addedAt": "2026-11-04"
+  },
+  {
+    "slug": "token-arcade",
+    "name": "token-arcade",
+    "type": "agent-tool",
+    "category": "observability",
+    "description": "Local MIT dashboard that tracks coding-agent quota, token usage and output speed across Claude Code, Codex, Grok and Antigravity.",
+    "url": "https://github.com/brezzashen/token-arcade",
+    "repoUrl": "https://github.com/brezzashen/token-arcade",
+    "githubStars": 19,
+    "tags": [
+      "usage",
+      "tokens",
+      "quota",
+      "dashboard",
+      "local"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex"
+    ],
+    "addedAt": "2026-11-04"
   }
 ]
