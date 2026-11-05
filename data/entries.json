@@ -3776,5 +3776,80 @@
       "codex"
     ],
     "addedAt": "2026-11-04"
+  },
+  {
+    "slug": "calibre-mcp",
+    "name": "Calibre MCP",
+    "type": "mcp-server",
+    "category": "observability",
+    "description": "Official hosted Calibre MCP so Claude Code, Cursor and Codex can query your RUM, CrUX and Synthetic performance data in plain language and point at slow elements, scripts and deploys.",
+    "url": "https://calibreapp.com/docs/automation/mcp",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "performance",
+      "rum",
+      "web-vitals"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-11-05"
+  },
+  {
+    "slug": "positron-mcp",
+    "name": "Positron MCP",
+    "type": "mcp-server",
+    "category": "coding-agents",
+    "description": "Experimental MCP in Positron 2026.10 that lets Claude Code, Codex, Gemini and other agents see live data, plots and consoles and run code beside you in Posit's data-science IDE.",
+    "url": "https://opensource.posit.co/blog/2026-11-04_positron-mcp/",
+    "repoUrl": "https://github.com/posit-dev/positron",
+    "githubStars": 4333,
+    "tags": [
+      "official",
+      "ide",
+      "data-science",
+      "experimental",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "gemini-cli",
+      "opencode"
+    ],
+    "addedAt": "2026-11-05"
+  },
+  {
+    "slug": "device-mcp",
+    "name": "Device MCP",
+    "type": "mcp-server",
+    "category": "browser",
+    "description": "macOS MCP app that mirrors and drives real iPhones/iPads plus Android Studio emulators so Claude Code, Codex, Cursor and Gemini CLI can tap, type and test mobile UI.",
+    "url": "https://devicemcp.ai/",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "mobile",
+      "ios",
+      "android",
+      "emulator",
+      "ui-testing"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "vscode"
+    ],
+    "addedAt": "2026-11-05"
   }
 ]
