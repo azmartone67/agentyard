@@ -3851,5 +3851,104 @@
       "vscode"
     ],
     "addedAt": "2026-11-05"
+  },
+  {
+    "slug": "parallel-mcp",
+    "name": "Parallel MCP",
+    "type": "mcp-server",
+    "category": "search",
+    "description": "Parallel MCP 2.0 hosted at mcp.parallel.ai: free keyless web search, extract and grounded decisions for Claude Code, Codex and Cursor, with optional signed-in deep research and org controls.",
+    "url": "https://parallel.ai/blog/parallel-mcp-2",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "web-search",
+      "research",
+      "keyless"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode"
+    ],
+    "addedAt": "2026-11-06"
+  },
+  {
+    "slug": "dench-mcp",
+    "name": "Dench MCP",
+    "type": "mcp-server",
+    "category": "business",
+    "description": "Hosted Dench MCP at mcp.dench.com so Claude Code, Codex, Cursor and Gemini CLI can check pipeline, update CRM records, search people and pull call context via OAuth.",
+    "url": "https://www.dench.com/blog/introducing-dench-mcp",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "crm",
+      "gtm",
+      "sales"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli"
+    ],
+    "addedAt": "2026-11-06"
+  },
+  {
+    "slug": "runway-dev-mcp",
+    "name": "Runway Dev MCP",
+    "type": "mcp-server",
+    "category": "design",
+    "description": "Hosted Runway Dev MCP plus plugins for Claude Code, Codex and Cursor so agents read live account context and build generative media API integrations without storing API keys.",
+    "url": "https://dev.runway.com/agents",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "generative-media",
+      "plugin",
+      "api"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli"
+    ],
+    "addedAt": "2026-11-06"
+  },
+  {
+    "slug": "cherry-blossom-mcp",
+    "name": "Cherry Blossom MCP",
+    "type": "mcp-server",
+    "category": "design",
+    "description": "Hosted PCB-design MCP so Claude Code, Codex and Cursor can schematic, place, route, pour copper and run checks on Cherry Blossom boards via OAuth on every plan including Free.",
+    "url": "https://www.trycherryblossom.com/docs/mcp",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "pcb",
+      "hardware",
+      "schematic"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-11-06"
   }
 ]
